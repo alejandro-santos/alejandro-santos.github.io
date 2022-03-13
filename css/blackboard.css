@@ -1,0 +1,139 @@
+body {
+    background-color: #E6E6E6;
+    color: rgb(0, 0, 0);
+}
+
+/* Navigation Bar */
+.navbar {
+    font-size: 15px;
+    font-family: 'aileron', sans-serif;
+    font-weight: 300;
+    font-style: bold;
+    color: white;
+    position: fixed;
+    padding-right: 55px;
+    width: 100%;
+    z-index: 2;
+    letter-spacing: 5px;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+
+.navbar:hover {
+    background-color: hsla(0,0%,88%,.9);
+    opacity: 1;
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+
+.navbar-brand{
+    font-size: 27px;
+    color: black !important;
+    float: right;
+}
+.navbar-nav a{
+    color: black !important;   
+}
+.navbar-nav a:hover{
+    color: #5f5f5f!important;
+    text-decoration: underline; 
+    font-weight: 700;
+}
+.navbar-toggler{
+    border: none;
+}
+
+.main_icon {
+    border: none;
+    height: auto;
+    size: 50rem;
+    width: 45px;
+    margin-left: 10rem;
+}
+/* ------------------  */
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: black;
+    clear: both;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+  }
+  
+  .socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 0.5rem 0;
+  }
+  
+  .socials a {
+    text-decoration: none;
+  }
+
+  .socials img {
+    width: auto;
+    height: 30px;
+    padding-right: 30px;
+
+}
+
+.container a {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+
+.socials i {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    letter-spacing: 30px;
+}
+
+.mainlist {
+    list-style: none;
+    display: flex;
+    margin-top: 15px;
+    padding-left: 0;
+}
+
+.mainlist i {
+    color: #1C1C1C;
+    font-size: 30px;
+    letter-spacing: 30px;
+    margin-top: 10px;
+}
+
+i:hover {
+    font-size: 35px;
+}
+
+.case {
+    position: relative;
+    top: 10rem;
+    margin-bottom: 10rem;
+    padding-bottom: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p {
+    text-align: left;
+}
+
+
+section {
+    height: auto;
+}

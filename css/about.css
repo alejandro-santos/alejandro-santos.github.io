@@ -1,0 +1,179 @@
+body {
+    background-color: #e6e6e6;
+    color: white;
+}
+
+/* Navigation Bar */
+.navbar {
+    font-size: 15px;
+    font-family: 'aileron', sans-serif;
+    font-weight: 300;
+    font-style: bold;
+    color: white;
+    position: fixed;
+    padding-right: 55px;
+    width: 100%;
+    z-index: 2;
+    letter-spacing: 5px;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+
+.navbar:hover {
+    background-color: hsla(0,0%,88%,.9);
+    opacity: 1;
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+
+.navbar-brand{
+    font-size: 27px;
+    color: black !important;
+    float: right;
+}
+.navbar-nav a{
+    color: black !important;   
+}
+.navbar-nav a:hover{
+    color: #5f5f5f!important;
+    text-decoration: underline; 
+    font-weight: 700;
+}
+.navbar-toggler{
+    border: none;
+}
+
+.main_icon {
+    border: none;
+    height: auto;
+    size: 50rem;
+    width: 45px;
+    margin-left: 10rem;
+}
+/* ------------------  */
+
+/* Main Title */
+.container{
+    font-family: 'Aileron', monospace;
+    color: #000000;
+    width: 100%;
+    position: relative;
+    text-align: left;
+    top: 10rem;
+    margin-bottom: 17rem;
+}
+ 
+.aboutimg {
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about {
+    color: black;
+    font-family: "aileron", sans-serif;
+    font-weight: 400;
+}
+
+.about-header {
+    font-weight: 600;
+}
+
+.about:after{
+    display: block;
+    content: "";
+    height: 1px;
+    background: #3b3b3b;
+    position: relative;
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
+    visibility: hidden;
+  }
+
+.inner {
+    width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+    .col-6 {
+        width: 100%;
+    }
+}
+
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 0px 10px;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    overflow: hidden;
+    list-style: none;
+    font-weight: 600;
+    color: rgb(88, 71, 54);
+}
+
+.skills-list i {
+    color: red;
+}
+
+
+
+
+.socials img {
+      width: auto;
+      height: 30px;
+      padding-right: 30px;
+  }
+  
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  color: black;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.socials a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1100px) {
+    
+}
+
+li {
+    margin-top: 10px;
+}
+
+i {
+    color: rgb(36, 36, 36);
+    font-size: 35px;
+    letter-spacing: 30px;
+}
+
+svg {
+    height:30px;
+    width: auto;
+    margin-right: 10px;
+
+}
